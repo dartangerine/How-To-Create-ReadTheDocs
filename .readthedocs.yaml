@@ -26,10 +26,11 @@ sphinx:
 # formats:
 #   - pdf
 #   - epub
-
-python:
-  install:
-    - requirements: docs/requirements.txt
+python -m pip install sphinx_rtd_theme
+# python:
+#   install:
+#     sphinx
+#     sphinx_rtd_theme
 
 # Optional but recommended, declare the Python requirements required
 # to build your documentation
